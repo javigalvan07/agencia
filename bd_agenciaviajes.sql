@@ -122,15 +122,15 @@ ADD CONSTRAINT FK_vuelo4 FOREIGN KEY (id_vuelo) REFERENCES vuelo (id_vuelo),
 ADD CONSTRAINT FK_compañia1 FOREIGN KEY (id_compañia) REFERENCES compañia (id_compañia);
 
 insert into agencia 
-(cod_agencia, nombre, direccion, telefono) values (01, "halcón viajes", "Ave del paraíso, 7", 928306019);
+(cod_agencia, nombre, direccion, telefono) values (01, "Halcón Viajes", "Calle Ave del paraíso, 7", 928306019);
 insert into agencia 
-(cod_agencia, nombre, direccion, telefono) values (02, "viajes Paqui", "Barcelona, 5", 928163966);
+(cod_agencia, nombre, direccion, telefono) values (02, "Viajes Paqui", "Calle Barcelona, 5", 928163966);
 insert into agencia 
-(cod_agencia, nombre, direccion, telefono) values (03, "viajes el corte ingles", "Leon y Castillo, 16", 928347610);
+(cod_agencia, nombre, direccion, telefono) values (03, "Viajes el Corte Ingles", "Calle León y Castillo, 16", 928347610);
 insert into agencia 
-(cod_agencia, nombre, direccion, telefono) values (04, "viajes carrefour", "Avenida del atlántico, 9", 928716317);
+(cod_agencia, nombre, direccion, telefono) values (04, "Viajes Carrefour", "Avenida del Atlántico, 9", 928716317);
 insert into agencia 
-(cod_agencia, nombre, direccion, telefono) values (05, "Viajes La Fuente", "Pablo Neruda, 77", 928927768);
+(cod_agencia, nombre, direccion, telefono) values (05, "Viajes La Fuente", "Calle Pablo Neruda, 77", 928927768);
 
 insert into trabajadores 
 (id_trabajadores, dni, nombre, apellidos, puesto, salario, cod_agencia) values (01, "54136009P", "Juan", "Sánchez Artiles", "Gerente", 3100, 01);
@@ -141,7 +141,7 @@ insert into trabajadores
 insert into trabajadores 
 (id_trabajadores, dni, nombre, apellidos, puesto, salario, cod_agencia) values (04, "54171929T", "Miguel", "Herrera Martínez", "Comercial", 1300, 04);
 insert into trabajadores 
-(id_trabajadores, dni, nombre, apellidos, puesto, salario, cod_agencia) values (05, "54171929X", "Luisa", "Guedes Fernandez", "Gerente", 3100, 05);
+(id_trabajadores, dni, nombre, apellidos, puesto, salario, cod_agencia) values (05, "54171929X", "Luisa", "Guedes Fernández", "Gerente", 3100, 05);
 
 insert into hotel 
 (id_hotel, nombre, direccion, telefono, categoria, fecha_entrada, fecha_salida) values (1001, "Radisson", "Avenida de los Artesanos, 217", 928789361, "4 estrellas", "2023-01-16", "2023-01-23");
@@ -181,9 +181,9 @@ insert into categoria
 insert into categoria
 (id_hotel, tipo_hotel) values (2002, "Resort");
 insert into categoria
-(id_hotel, tipo_hotel) values (3003, "Resort & Spa & Golf");
+(id_hotel, tipo_hotel) values (3003, "Resort, Spa & Golf");
 insert into categoria
-(id_hotel, tipo_hotel) values (4004, "Resort & Spa & Golf");
+(id_hotel, tipo_hotel) values (4004, "Resort, Spa & Golf");
 insert into categoria
 (id_hotel, tipo_hotel) values (5005, "Apartahotel");
 
@@ -232,7 +232,7 @@ insert into vueloorigen
 (id_vuelo, id_origen) values (555, 100);
 
 insert into destino
-(id_destino, ciudad) values (10, "Marrackech");
+(id_destino, ciudad) values (10, "Marrakech");
 insert into destino
 (id_destino, ciudad) values (30, "Siria");
 insert into destino
